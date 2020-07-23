@@ -9,7 +9,7 @@ namespace ExecOneFinally
         {
             FileStream fs = null;
             try
-            {
+            { 
                 fs = new FileStream(@"C:\temp\data.txt", FileMode.Open);
                 StreamReader sr = new StreamReader(fs);
                 string line = sr.ReadLine();
